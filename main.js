@@ -48,3 +48,33 @@ const isDivisable = n1 % 5 == 0 && n2 % 5 == 0 && n3 % 5 == 0 && n4 % 5 == 0;
 const firstNum = n1 > n4 ;
 console.log(firstNum);
 
+const sumNum = n1 - n2 ;
+console.log(sumNum)
+
+const sumMulti= sumNum * n3 ;
+console.log(sumMulti)
+
+const sumRemainder = sumMulti % n4;
+console.log(sumRemainder);
+
+
+// ========== Part 2: Practical Math =====
+
+const trip = 1500;
+
+const mileOne = 55;
+const mileTwo = 60;
+const mileThree = 75;
+
+const perGallon = 30;
+const perGallon2 = 28;
+const perGallon3 = 23;
+
+const avgCost = 3;
+
+const budget = 175;
+
+const perMile = mileOne / perGallon;
+
+console.log(perMile);
+
