@@ -60,21 +60,30 @@ console.log(sumRemainder);
 
 // ========== Part 2: Practical Math =====
 
-const trip = 1500;
+// Road trip gas calculation
 
-const mileOne = 55;
-const mileTwo = 60;
-const mileThree = 75;
+let miles = 1500;
+let fuel = 175;
+let perGallon = 3;
 
-const perGallon = 30;
-const perGallon2 = 28;
-const perGallon3 = 23;
+//How many gallons of fuel will you need for the entire trip?
+console.log(miles / 55); 
+console.log(miles / 60); 
+console.log(miles / 75); 
 
-const avgCost = 3;
+// let perGallonCost = milesPerHour * perGallon;
+// console.log(perGallonCost); //you will need 75 gallons
+// console.log(milesPerHour);
 
-const budget = 175;
+//Will your budget be enough to cover the fuel expense?
+const per55 = 55; // best budget
+const per60 = 60;
+const per75 = 75;
 
-const perMile = mileOne / perGallon;
+console.log(per55 * 3);
+console.log(per60 * 3);
+console.log(per75 * 3);
 
-console.log(perMile);
-
+// How long will the trip take, in hours?
+let milesPerHour = miles / 60;
+console.log(milesPerHour); // 25 hours
